@@ -1,0 +1,270 @@
+.navbar-brand {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: raleway;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav {
+    margin-right: 80px;
+}
+
+.nav-item {
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: raleway;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+
+.slogan {
+    text-align: center;
+    color: white;
+}
+
+.slogan_main {
+    background: url(../img/hero_img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+
+.slogan_main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.slogan_main h2 {
+    font-family: raleway;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 230px;
+    z-index: 2;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.slogan_main p {
+    font-family: raleway;
+    color: #fff;
+    max-width: 700px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.learn_more {
+    font-family: raleway;
+    z-index: 2;
+    position: relative;
+    background: none;
+    color: #fff;
+    padding: 10px 45px;
+    margin-left: 0px;
+    font-size: 22px;
+    border: solid;
+}
+
+.aranna {
+    position: relative;
+}
+
+.aranna::after {
+    content: '';
+    top: 0;
+    left: 260px;
+    width: 17%;
+    height: 100%;
+    border-bottom: 5px solid #000;
+    position: absolute;
+}
+
+.aranna h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: raleway;
+}
+
+.pragraph {
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    font-family: raleway;
+    text-align: justify;
+}
+
+.img_part {
+    display: flex;
+}
+
+.img_part img {
+    margin: 1px;
+}
+
+.learn_sec {
+    font-family: raleway;
+    z-index: 2;
+    position: relative;
+    background: none;
+    color: black;
+    padding: 10px 25px;
+    margin-left: 430px;
+    font-size: 20px;
+    border: solid;
+    margin-top: 79px;
+    margin-bottom: 30px;
+}
+
+.slogan_sec {
+    background: url(../img/5.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding-left: 116px;
+    padding-right: 65px;
+
+
+}
+
+.slogan_sec::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.slogan_sec h2 {
+    font-family: raleway;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+
+
+}
+
+
+.slogan_sec p {
+    font-family: raleway;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.join_us {
+    font-family: raleway;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.se_part {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 80px;
+}
+
+.join_part {
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+}
+
+.service {
+    position: relative;
+}
+
+.service::after {
+    content: '';
+    top: 0;
+    left: 260px;
+    width: 17%;
+    height: 100%;
+    border-bottom: 5px solid #000;
+    position: absolute;
+}
+
+.service h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: raleway;
+}
+
+.card-head {
+    display: flex;
+}
+
+.service_part {
+    padding-top: 50px;
+}
+
+.card-head svg {
+	font-size: 23px;
+	margin-right: 20px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-top {
+	text-align: center;
+    position: relative;
+    
+}
+.card-top::after {
+    content: '';
+    top: 0;
+    left: 38%;
+    width: 17%;
+    height: 100%;
+    border-bottom: 5px solid #000;
+    position: absolute;
+}
+.card-top h2 {
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.card-top p {
+	font-size: 17px;
+}
+.price-list ul li {
+	list-style: none;
+	border: none;
+}
+.price-list ul li svg {
+	color: #2cfd01;
+	margin-right: 10px;
+}
+
+.c-red{
+    color: red ! important;
+}
